@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PERSONAL SITE</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
+  <title>PERSONAL SITE</title>
 </head>
 <body>
-  <p><strong>MENU</strong></p>
-  <ol>
-    <li><a href="questions.html">QUESTIONS</a></li>
-    <li><a href="roadmap.html">ROADMAP</a></li>
-    <li><a href="ideas.html">IDEAS</a></li>
-    <li><a href="temp.html">TEMPORY STORAGE BEFORE SETUP</a></li>
-  </ol>
-  <p1>SETTING UP THIS PAGE</p1>
-  <ol>
-    <li>HOW TO USE CSS, MAKE A STATIC SIDE BAR</li>
-    <li>ADVANCED CSS, INDENTATION, SPACES AND DIFFERENT PANELS</li>
-    <li>SHOW ALL PAGES ON MAIN, CONTROL SCROLL</li>
-    <li>INTERACTIVE WEBPAGE PHP? OR JAVASCRIPT? TEXTBOX THAT CAN ADD STUFF IN REAL TIME</li>
-    <li>ADVANCED GRAPHS, PHOTOS, POLISH TEXT EDITING</li>
-    <li>DAILY ROADMAP UPDATE</li>
-    <li>ADD TIME FOOTPRINTS</li>
-    <li>NOT URGENT: PASSWORD ENCRYPTION FOR TEXT BOXES</li>
-    <li>NOT URGENT: SITE PROTECTION, RESTRICTED ACCESS</li>
-  </ol>
-  <p1>TO-DO LIST</p1>
-  <ol>
-    <li>CURRENTLY NOTHING IN PLACE, CHECK TEMP FOR ANY UPDATE RELATED INFO</li>
-    <li>FUTURE INTERACTIVE TEXT BOX HERE, WILL PUSH TO ROADMAP EVERY DAY WITH UPDATES</li>
-  </ol>
+  <div id = "mySidebar" class="sidebar">
+    <title>MENU</title>
+    <icon href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9721;</icon>
+    
+    <a href="questions.html">QUESTIONS</a>
+    <a href="roadmap.html">ROADMAP</a>
+    <a href="ideas.html">IDEAS</a>
+    <a href="temp.html">TEMPORY STORAGE</a>
+  </div>
+  
+  <span onclick="openNav()">&#8594;</span>
+
+  <!-- Page content -->
+  <div id = "main" class= "main">
+    <p1>SETTING UP THIS PAGE</p1>
+    <ol>
+      <li>HOW TO USE CSS, MAKE A STATIC SIDE BAR</li>
+      <li>ADVANCED CSS, INDENTATION, SPACES AND DIFFERENT PANELS</li>
+      <li>SHOW ALL PAGES ON MAIN, CONTROL SCROLL</li>
+      <li>INTERACTIVE WEBPAGE PHP? OR JAVASCRIPT? TEXTBOX THAT CAN ADD STUFF IN REAL TIME</li>
+      <li>ADVANCED GRAPHS, PHOTOS, POLISH TEXT EDITING</li>
+      <li>DAILY ROADMAP UPDATE</li>
+      <li>ADD TIME FOOTPRINTS</li>
+      <li>INTERACTABLE CHECK BOXES</li>
+      <li>NOT URGENT: PASSWORD ENCRYPTION FOR TEXT BOXES</li>
+      <li>NOT URGENT: SITE PROTECTION, RESTRICTED ACCESS</li>
+    </ol>
+    <p1>TO-DO LIST</p1>
+    <ol>
+      <li>CURRENTLY NOTHING IN PLACE, CHECK TEMP FOR ANY UPDATE RELATED INFO</li>
+      <li>FUTURE INTERACTIVE TEXT BOX HERE, WILL PUSH TO ROADMAP EVERY DAY WITH UPDATES</li>
+    </ol>
+  </div>
 </body>
-</html>
 </html>

@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>IDEAS</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
+  <title>IDEAS</title>
 </head>
 <body>
-    <p><a href="index.html">BACK TO MAIN</a></p>
-  <ol>
-    <li><a href="questions.html">QUESTIONS</a></li>
-    <li><a href="roadmap.html">ROADMAP</a></li>
-  </ol>
-  <p1>DESCRIPTION: HERE'S WHERE NEW IDEAS ARE RECORDED, CAN BE EDITED FROM MENU PAGE</p1>
+  <div id = "mySidebar" class="sidebar">
+    <title>MENU</title>
+    <icon href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9721;</icon>
+    <a href="index.html">BACK TO MAIN MENU</a>
+    <a href="questions.html">QUESTIONS</a>
+    <a href="roadmap.html">ROADMAP</a>
+    <a href="temp.html">TEMPORY STORAGE</a>
+  </div>
+  
+  <span onclick="openNav()">&#8594;</span>
+
+  <!-- Page content -->
+  <div id = "main" class= "main">
+    <p1>IDEAS</p1>
+    <br>
+    <p1>DESCRIPTION: HERE'S WHERE NEW IDEAS ARE RECORDED, CAN BE EDITED FROM MENU PAGE</p1>
+  </div>
 </body>
-</html>
 </html>

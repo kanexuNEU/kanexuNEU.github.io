@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ROADMAP</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript" src="index.js"></script>
+  <title>ROADMAP</title>
 </head>
 <body>
-    <p><a href="index.html">BACK TO MAIN</a></p>
-  <ol>
-    <li><a href="questions.html">QUESTIONS</a></li>
-    <li><a href="ideas.html">IDEAS</a></li>
-  </ol>
+  <div id = "mySidebar" class="sidebar">
+    <title>MENU</title>
+    <icon href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9721;</icon>
+    <a href="index.html">BACK TO MAIN MENU</a>
+    <a href="questions.html">QUESTIONS</a>
+    <a href="ideas.html">IDEAS</a>
+    <a href="temp.html">TEMPORY STORAGE</a>
+  </div>
+  
+  <span onclick="openNav()">&#8594;</span>
 
-  <p>THIS PAGE IS SPLIT INTO THREE PARTS, EVERYTHING IS AUTOMATICALLY UPDATED</p>
-  <p>NOT URGENT: ADD FEATURE TO EDIT IT SEPERATELY WITHIN THIS PAGE</p>
-  <br>
-  <br>
-  <p1>STORAGE</p1>
-  <br>
-  <p2>DESCRIPTION: HERE'S WHERE TAKEAWAYS ARE GENERALLY RECORDED, CAN BE UPDATED ON THE MENU TEXTBOX</p2>
-  <br>
-  <br>
-  <p1>UPDATES</p1>
-  <br>
-  <p2>DESCRIPTION: HERE'S WHERE RECENT UPDATES ARE PUSHED TO, AUTOMATICALLY UPDATED FROM MENU TO-DO TEXTBOX</p2>
-  <br>
-  <br>
-  <p1>UPCOMING</p1>
-  <br>
-  <p2>DESCRIPTION: HERE'S WHERE FUTURE POJECTS ARE DISPLAYES, AUTOMATICALLY UPDATED FROM IDEAS PAGE</p2>
+  <!-- Page content -->
+  <div id = "main" class= "main">
+    <p1>ROADMAP</p1>
+    <br>
+    <p>THIS PAGE IS SPLIT INTO THREE PARTS, EVERYTHING IS AUTOMATICALLY UPDATED</p>
+    <p>NOT URGENT: ADD FEATURE TO EDIT IT SEPERATELY WITHIN THIS PAGE</p>
+    <br>
+    <br>
+    <p1>STORAGE</p1>
+    <br>
+    <p2>DESCRIPTION: HERE'S WHERE TAKEAWAYS ARE GENERALLY RECORDED, CAN BE UPDATED ON THE MENU TEXTBOX</p2>
+    <br>
+    <br>
+    <p1>UPDATES</p1>
+    <br>
+    <p2>DESCRIPTION: HERE'S WHERE RECENT UPDATES ARE PUSHED TO, AUTOMATICALLY UPDATED FROM MENU TO-DO TEXTBOX</p2>
+    <br>
+    <br>
+    <p1>UPCOMING</p1>
+    <br>
+    <p2>DESCRIPTION: HERE'S WHERE FUTURE POJECTS ARE DISPLAYES, AUTOMATICALLY UPDATED FROM IDEAS PAGE</p2>
+  </div>
 </body>
-</html>
 </html>
